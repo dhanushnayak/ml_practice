@@ -8,10 +8,18 @@ class DataTransformationTrainingPipeline:
         pass
 
     def main(self):
-        config = ConfigurationManager()
-        data_trans_config =  config.get_data_transformation_config()
-        data_trans =  DataTransformation(config=data_trans_config)
-        data_trans.train_test_spliting()
+        try:
+            with open("artifacts/data_validation/status.txt","r") as f:
+                status = f.read().split(" ")[-1]
+            if status == 'True' or str(status).lower() == 'true':
+                config = ConfigurationManager()
+                data_trans_config =  config.get_data_transformation_config()
+                data_trans =  DataTransformation(config=data_trans_config)
+                data_trans.train_test_spliting()
+            else:
+                raise Exception("Your Data Schema is not valid")
+        except Exception as e:
+            raise e
 
 STAGE_NAME = "Data Transformation Stage"
 
