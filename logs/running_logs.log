@@ -1,2 +1,46 @@
 [2023-07-28 23:33:03,104: INFO: main: Welcome to Custom Log]
 [2023-07-28 23:46:22,019: INFO: main: Welcome to Custom Log]
+[2023-07-29 12:53:01,996: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-07-29 12:53:02,000: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-07-29 12:54:50,198: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-07-29 12:54:50,203: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-07-29 12:55:12,092: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-07-29 12:55:12,097: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-07-29 12:55:12,101: INFO: comman: yaml file: schema.yaml loaded successfully]
+[2023-07-29 12:55:12,104: INFO: comman: created directory at: artifacts]
+[2023-07-29 12:55:12,107: INFO: comman: created directory at: artifacts/data_ingestion]
+[2023-07-29 12:55:13,117: INFO: 690454767: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26148
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "51b18a12af535f5d423d2095fe7eaec31d09f53a2a8dd7c27dfd4ba408337832"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 33D8:26C04F:1B6725:26245D:64C4BED4
+Accept-Ranges: bytes
+Date: Sat, 29 Jul 2023 07:25:12 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830022-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1690615512.085287,VS0,VE319
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1c5f865e3f245a218b2b2b71eb1797e61e33b870
+Expires: Sat, 29 Jul 2023 07:30:12 GMT
+Source-Age: 0
+
+]
+[2023-07-29 13:08:40,426: INFO: main: >>>>> Stage Data Ingestion Stage started <<<<<]
+[2023-07-29 13:08:40,430: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-07-29 13:08:40,432: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-07-29 13:08:40,434: INFO: comman: yaml file: schema.yaml loaded successfully]
+[2023-07-29 13:08:40,435: INFO: comman: created directory at: artifacts]
+[2023-07-29 13:08:40,438: INFO: comman: created directory at: artifacts/data_ingestion]
+[2023-07-29 13:08:40,440: INFO: data_ingestion: File already exists of size: ~ 26 KB]
+[2023-07-29 13:08:40,446: INFO: main: >>>>> Stage Data Ingestion Stage Completed <<<<<]
