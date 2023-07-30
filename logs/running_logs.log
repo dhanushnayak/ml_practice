@@ -798,3 +798,54 @@ X===========X]
 [2023-07-30 18:19:58,297: INFO: main: >>>>> Stage Model Evaluation Completed <<<<<
 
 X===========X]
+[2023-07-30 18:57:08,119: INFO: main: >>>>> Stage Data Ingestion started <<<<<]
+[2023-07-30 18:57:08,128: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-07-30 18:57:08,130: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-07-30 18:57:08,134: INFO: comman: yaml file: schema.yaml loaded successfully]
+[2023-07-30 18:57:08,136: INFO: comman: created directory at: artifacts]
+[2023-07-30 18:57:08,139: INFO: comman: created directory at: artifacts/data_ingestion]
+[2023-07-30 18:57:08,140: INFO: data_ingestion: File already exists of size: ~ 26 KB]
+[2023-07-30 18:57:08,147: INFO: main: >>>>> Stage Data Ingestion Completed <<<<<
+
+X===========X]
+[2023-07-30 18:57:08,148: INFO: main: >>>>> Stage Data Validation started <<<<<]
+[2023-07-30 18:57:08,156: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-07-30 18:57:08,158: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-07-30 18:57:08,162: INFO: comman: yaml file: schema.yaml loaded successfully]
+[2023-07-30 18:57:08,164: INFO: comman: created directory at: artifacts]
+[2023-07-30 18:57:08,165: INFO: comman: created directory at: artifacts/data_validation]
+[2023-07-30 18:57:08,187: INFO: data_validation: >>>>>>> Validation status of the data: True <<<<<<<<<]
+[2023-07-30 18:57:08,189: INFO: main: >>>>> Stage Data Validation Completed <<<<<
+
+X===========X]
+[2023-07-30 18:57:08,191: INFO: main: >>>>> Stage Data Transformation started <<<<<]
+[2023-07-30 18:57:08,197: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-07-30 18:57:08,200: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-07-30 18:57:08,206: INFO: comman: yaml file: schema.yaml loaded successfully]
+[2023-07-30 18:57:08,208: INFO: comman: created directory at: artifacts]
+[2023-07-30 18:57:08,209: INFO: comman: created directory at: artifacts/data_transformation]
+[2023-07-30 18:57:08,241: INFO: data_transformation: Splited Data into training and test sets]
+[2023-07-30 18:57:08,241: INFO: data_transformation: Train Shape => (1199, 12)]
+[2023-07-30 18:57:08,242: INFO: data_transformation: Test Shape => (400, 12)]
+[2023-07-30 18:57:08,244: INFO: main: >>>>> Stage Data Transformation Completed <<<<<
+
+X===========X]
+[2023-07-30 18:57:08,245: INFO: main: >>>>> Stage Model Training  started <<<<<]
+[2023-07-30 18:57:08,249: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-07-30 18:57:08,256: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-07-30 18:57:08,259: INFO: comman: yaml file: schema.yaml loaded successfully]
+[2023-07-30 18:57:08,261: INFO: comman: created directory at: artifacts]
+[2023-07-30 18:57:08,262: INFO: comman: created directory at: artifacts/model_trainer]
+[2023-07-30 18:57:08,304: INFO: main: >>>>> Stage Model Training  Completed <<<<<
+
+X===========X]
+[2023-07-30 18:57:08,306: INFO: main: >>>>> Stage Model Evaluation started <<<<<]
+[2023-07-30 18:57:08,311: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2023-07-30 18:57:08,313: INFO: comman: yaml file: params.yaml loaded successfully]
+[2023-07-30 18:57:08,320: INFO: comman: yaml file: schema.yaml loaded successfully]
+[2023-07-30 18:57:08,322: INFO: comman: created directory at: artifacts]
+[2023-07-30 18:57:08,324: INFO: comman: created directory at: artifacts/model_evaluation]
+[2023-07-30 18:57:09,406: INFO: comman: json file saved at: artifacts\model_evaluation\metrics.json]
+[2023-07-30 18:57:21,600: INFO: main: >>>>> Stage Model Evaluation Completed <<<<<
+
+X===========X]
