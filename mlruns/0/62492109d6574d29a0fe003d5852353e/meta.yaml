@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/admin/Desktop/Project/e2e/ml_practice/mlruns/0/62492109d6574d29a0fe003d5852353e/artifacts
+end_time: 1690721103419
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 62492109d6574d29a0fe003d5852353e
+run_name: delightful-dove-910
+run_uuid: 62492109d6574d29a0fe003d5852353e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690721097426
+status: 3
+tags: []
+user_id: admin

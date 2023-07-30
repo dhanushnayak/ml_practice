@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/admin/Desktop/Project/e2e/ml_practice/mlruns/0/ebf7161a597b43c1990abb6ebb6aaf1d/artifacts
+end_time: 1690720848718
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ebf7161a597b43c1990abb6ebb6aaf1d
+run_name: invincible-flea-489
+run_uuid: ebf7161a597b43c1990abb6ebb6aaf1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1690720841323
+status: 3
+tags: []
+user_id: admin
